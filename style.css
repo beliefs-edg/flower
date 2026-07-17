@@ -1,0 +1,49 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* 图片之间的间距 */
+  margin-bottom: 80px;
+}
+.floor {
+  /* 统一每张图片容器的宽高，可自己调数值 */
+  width: 18%;
+  height: 500px;
+  border: 5px solid green;
+  border-radius: 10px;
+  margin: 5px;
+}
+.floor img {
+  width: 100%;
+  height: 100%;
+  /* cover：等比例缩放图片，填满盒子，多余部分裁切 */
+  object-fit: cover;
+  margin: 0 auto;
+  padding: 0px;
+}
+.flower-intro {
+  font-size: 25px;
+  color: #222;
+  margin: 8px 6px;
+  line-height: 1.4;
+}
+.flower-select option.opt-sun { color: rgb(248, 239, 1); }
+.flower-select option.opt-plum { color: rgb(0, 234, 255); }
+.flower-select option.opt-rose { color: rgb(255, 17, 0); }
+.flower-select option.opt-lotus { color: rgb(48, 43, 29); }
+.flower-select option.opt-haitang { color: rgb(255, 0, 166); }
+.select-box {
+  margin-top: 40px; /* 和上方花卉卡片拉开间距，解决重叠 */
+}
+#flower {
+  padding: 4px 8px;
+  font-size: 30px;
+}
+
+body {
+    background-color: #74dd93; 
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+
